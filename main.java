@@ -12,7 +12,7 @@ public static void sortmeh(int[] whaaat){
 for(int i=0;i<whaaat.length-1;i++)
 {
 for(int j=0;j<whaaat.length;j++){
-if(whaaat[j]<whaaat[i]){
+if(whaaat[j] > whaaat[i]{
 int temp = whaaat[i];
 whaaat[i] = whaaat[j];
 whaaat[i] = temp;  // BUG: should be whaaat[j] = temp
